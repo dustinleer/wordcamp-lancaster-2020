@@ -1,0 +1,13 @@
+/* Organizers page */
+ul.wordcamp-organizers {
+	display: grid;
+	grid-template-columns: 49% 49%;
+	grid-column-gap: 1%;
+}
+ul.wordcamp-organizers  li {
+	text-align: center;
+}
+ul.wordcamp-organizers img {
+	border-radius: 50%;
+	margin: auto;
+}
