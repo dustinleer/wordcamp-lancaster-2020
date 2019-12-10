@@ -1,3 +1,8 @@
+/* Get rid of a serif font */
+.entry-content p {
+	font-family: inter, sans-serif;
+}
+
 /* Organizers page */
 ul.wordcamp-organizers {
 	display: grid;
@@ -10,4 +15,35 @@ ul.wordcamp-organizers  li {
 ul.wordcamp-organizers img {
 	border-radius: 50%;
 	margin: auto;
+}
+
+/* Site tag line */
+.site-description {
+	padding-left: 6.5em;
+	font-size: 85%;
+	color: #B1C9E8;
+}
+/* Button color */
+button:not(.toggle),
+.button
+.faux-button,
+.wp-block-button__link,
+.wp-block-file .wp-block-file__button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.bg-accent,
+.bg-accent-hover:hover,
+.bg-accent-hover:focus,
+:root .has-accent-background-color,
+.comment-reply-link {
+	background-color: #000;
+}
+/* Usually (required) next to a form label */
+.contact-form label span {
+	color: #0F4C81;
+}
+/* Hide the remaining number of tickets */
+.tix-column-remaining {
+	display: none;
 }
