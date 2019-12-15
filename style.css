@@ -16,6 +16,9 @@ ul.wordcamp-organizers img {
 	border-radius: 50%;
 	margin: auto;
 }
+.wordcamp-organizers__content{
+	padding-top: 1em;
+}
 
 /* Site tag line */
 .site-description {
