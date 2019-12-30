@@ -154,6 +154,10 @@ input[type="submit"],
     position: relative;
 }
 
+#site-header {
+	z-index: 99;
+}
+
 #site-header:before {
     content: '';
     display: flex;
@@ -205,4 +209,10 @@ header.entry-header .entry-header-inner {
 .post-inner {
     position: relative;
     z-index: 1;
+}
+
+.primary-menu li.menu-item-has-children:hover > ul,
+.primary-menu li.menu-item-has-children:focus > ul,
+.primary-menu li.menu-item-has-children.focus > ul {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
 }
