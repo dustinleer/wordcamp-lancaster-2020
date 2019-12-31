@@ -404,3 +404,14 @@ article > nav {
 .menu-modal {
     z-index: 200;
 }
+
+/* POST INNER */
+.post-inner h1,
+.post-inner h2,
+.post-inner h3,
+.post-inner h4,
+.post-inner h5,
+.post-inner h6,
+.post-inner .faux-heading {
+    color: #0f4c81;
+}
