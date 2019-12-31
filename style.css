@@ -372,14 +372,19 @@ article > nav {
     bottom: -200px;
     left: 0;
     transform-origin: bottom left;
-    transform: skewY(-3deg);
+    transform: skewY(-2deg);
     z-index: 1;
 }
 
 .blog .header-inner {
-    padding-bottom: 7rem;
     position: relative;
     z-index: 99;
+}
+
+@media (min-width: 1000px) {
+	.blog .header-inner {
+		padding-bottom: 7em;
+	}
 }
 
 .blog #site-content {
@@ -394,4 +399,8 @@ article > nav {
     top: 0;
     right: -40px;
 	left: auto;
+}
+
+.menu-modal {
+    z-index: 200;
 }
