@@ -1,3 +1,9 @@
+/* BODY OVERRIDE */
+body.custom-background {
+    background-color: #ffffff;
+	/* border: 20px solid rgb(0, 21, 49); */
+}
+
 /* Get rid of a serif font */
 .entry-content p {
 	font-family: inter, sans-serif;
@@ -102,7 +108,7 @@ input[type="submit"]:focus,
 :root .has-accent-background-color:focus,
 .comment-reply-link:focus {
 	background-color: #073760;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 /* Usually (required) next to a form label */
@@ -123,12 +129,13 @@ input[type="submit"]:focus,
 	transition: all 0.5s ease;
 }
 
-.footer-nav-widgets-wrapper input[type="submit"]:hover
-.footer-nav-widgets-wrapper input[type="submit"]:focus,
 .footer-nav-widgets-wrapper button:not(.toggle):hover,
-.footer-nav-widgets-wrapper button:not(.toggle):focus{
+.footer-nav-widgets-wrapper button:not(.toggle):focus
+.search-form .search-submit:focus,
+.search-form .search-submit:hover {
 	background-color: #ffffff;
 }
+
 .footer-nav-widgets-wrapper form#subscribe-blog-blog_subscription-2 {
 	display: flex;
 	flex-wrap: wrap;
@@ -191,11 +198,11 @@ input[type="submit"]:focus,
 #site-header:before {
     content: '';
     display: flex;
-    background: rgba(0, 34, 79, 0.85);
+    background: #e22658;
     position: absolute;
     width: 100%;
     height: 200px;
-    top: -234px;
+    top: -199px;
     left: 0;
     transform-origin: bottom left;
     transform: skewY(3deg);
@@ -252,6 +259,12 @@ input[type="submit"]:focus,
 	background-position: 220px 0px;
 }
 
+@media (min-width: 1400px) {
+	.entry-header:after {
+		background-position: 0 0;
+	}
+}
+
 .footer-nav-widgets-wrapper.header-footer-group:after {
 	background-position: -130px -270px;
 	z-index: -1;
@@ -272,4 +285,55 @@ input[type="submit"]:focus,
 .primary-menu li.menu-item-has-children:focus > ul,
 .primary-menu li.menu-item-has-children.focus > ul {
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header-footer-group pre,
+.header-footer-group fieldset,
+.header-footer-group input,
+.header-footer-group textarea,
+.header-footer-group table,
+.header-footer-group table *,
+.footer-nav-widgets-wrapper,
+#site-footer,
+.menu-modal nav *,
+.footer-widgets-outer-wrapper,
+.footer-top {
+    border-color: #0b2f4f;
+}
+
+.footer-widgets-outer-wrapper {
+	border-color: transparent;
+}
+
+/* SITE CONTENT */
+#site-content {
+    position: relative;
+    overflow: visible;
+}
+
+#site-content::after {
+    content: '';
+    display: flex;
+    background:  #fff;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: -160px;
+    left: 0;
+    transform-origin: bottom left;
+    transform: skewY(3deg);
+    z-index: 3;
+}
+
+article > header,
+article > div,
+article > nav {
+    position: relative;
+    z-index: 4;
+}
+
+@media (min-width: 700px) {
+	.footer-widgets-outer-wrapper {
+		padding: 18rem 0 8rem;
+	}
 }
