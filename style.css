@@ -351,6 +351,6 @@ article > nav {
 
 @media (min-width: 1000px) {
 	.header-inner {
-		padding: 5rem 0;
+		padding: 7rem 0 0 0;
 	}
 }
