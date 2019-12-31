@@ -186,19 +186,30 @@ input[type="submit"],
     z-index: 1;
 }
 
+.home header.entry-header:after,
+.footer-nav-widgets-wrapper.header-footer-group:after {
+	content: '';
+	display: flex;
+	position: absolute;
+	max-width: 750px;
+	max-height: 750px;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background-image: url('https://github.com/dustinleer/wordcamplancaster2020/blob/master/img/wclanc-2020-logo.svg');
+	background-repeat: no-repeat;
+	opacity: 0.045;
+	background-size: 100%;
+}
+
 .home header.entry-header:after {
-    content: '';
-    display: flex;
-    background: rgba(159, 189, 218, 0.25);
-    position: absolute;
-    width: 100%;
-    height: 170px;
-    bottom: 0px;
-    left: 0;
-    transform-origin: bottom left;
-    transform: skewY(5deg);
-    z-index: 0;
-    /* border-top: 2px solid #9fbdda; */
+	top: 0px;
+	right: -10%;
+}
+
+.footer-nav-widgets-wrapper.header-footer-group:after {
+    top: 50%;
+    left: -10%;
 }
 
 header.entry-header .entry-header-inner {
@@ -206,7 +217,8 @@ header.entry-header .entry-header-inner {
     z-index: 2;
 }
 
-.post-inner {
+.post-inner,
+.footer-nav-widgets-wrapper.header-footer-group {
     position: relative;
     z-index: 1;
 }
