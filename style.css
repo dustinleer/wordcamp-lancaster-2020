@@ -281,6 +281,10 @@ input[type="submit"]:focus,
     z-index: 1;
 }
 
+.post-inner {
+	z-index: 4;
+}
+
 .primary-menu li.menu-item-has-children:hover > ul,
 .primary-menu li.menu-item-has-children:focus > ul,
 .primary-menu li.menu-item-has-children.focus > ul {
