@@ -393,4 +393,5 @@ article > nav {
 .blog .header-inner.section-inner:before {
     top: 0;
     right: -40px;
+	left: auto;
 }
