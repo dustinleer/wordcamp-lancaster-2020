@@ -337,3 +337,20 @@ article > nav {
 		padding: 18rem 0 8rem;
 	}
 }
+
+/* SITE DESCRIPTION */
+.site-description {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
+@media (min-width: 1000px) {
+	.header-inner {
+		padding: 5rem 0;
+	}
+}
