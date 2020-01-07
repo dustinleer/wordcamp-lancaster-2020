@@ -195,6 +195,19 @@ input[type="submit"]:focus,
     border-color: transparent;
 }
 
+.widget-content > div > :first-child.sponsor-level-title{
+    margin-top: 1em;
+}
+.wcb_widget_sponsors .sponsor-logo img{
+    max-width: 50% !important;
+    margin-bottom: .5em;
+    padding: 1em;
+    background-color: #fff;
+}
+.wcb_widget_sponsors .sponsor-logo img:hover{
+    background: none;
+}
+
 /* HEADER */
 #site-header {
 	z-index: 99;
