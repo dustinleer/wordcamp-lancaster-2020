@@ -483,11 +483,11 @@ h1, h2, h3, h4, h5, h6, .faux-heading {
 .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-pause,
 .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-play,
 .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-prev {
-    background-color: rgba(0, 60, 110, 0.75);
+    background-color: rgba(0, 60, 110, 0.75) !important;
 }
 
 .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets .swiper-pagination-bullet,
 .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets .swiper-pagination-bullet-active,
 .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets .swiper-pagination-bullet[selected] {
-	background-color: #0f4c81;
+	background-color: #0f4c81 !important;
 }
