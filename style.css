@@ -491,3 +491,43 @@ h1, h2, h3, h4, h5, h6, .faux-heading {
 .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets .swiper-pagination-bullet[selected] {
 	background-color: #0f4c81 !important;
 }
+
+/* SOCIAL ICONS */
+.social a[href*="twitter"]:before,
+.social a[href*="meetup"]:before,
+.social a[href*="slack"]:before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    max-width: 40px;
+    max-height: 40px;
+    width: 40px;
+    height: 40px;
+    z-index: 0;
+    background-repeat: no-repeat;
+}
+
+.social a[href*="twitter"]:before {
+    background-image: url('https://leerdustin.com/wc-2020/twitter-logo.svg');
+}
+
+.social a[href*="twitter"]:hover:before {
+    background-image: url('https://leerdustin.com/wc-2020/twitter-logo-white.svg');
+}
+
+.social a[href*="meetup"]:before {
+    background-image: url('https://leerdustin.com/wc-2020/meetup-logo-m-swarm.svg');
+}
+
+.social a[href*="meetup"]:hover:before {
+    background-image: url('https://leerdustin.com/wc-2020/meetup-logo-m-swarm-white.svg');
+}
+
+.social a[href*="slack"]:before {
+    background-image: url('https://leerdustin.com/wc-2020/slack-mark.svg');
+}
+
+.social a[href*="slack"]:hover:before {
+    background-image: url('https://leerdustin.com/wc-2020/slack-mark-white.svg');
+}
