@@ -508,26 +508,35 @@ h1, h2, h3, h4, h5, h6, .faux-heading {
     background-repeat: no-repeat;
 }
 
+/* .social a[href*="meetup"]:before,
+.social a[href*="slack"]:before {
+	top: 24px;
+    max-width: 60px;
+    max-height: 60px;
+    width: 60px;
+    height: 60px;
+} */
+
 .social a[href*="twitter"]:before {
-    background-image: url('https://leerdustin.com/wc-2020/twitter-logo.svg');
+    background-image: url('https://leerdustin.com/wc-2020/twitter-logo-clipped.svg');
 }
 
 .social a[href*="twitter"]:hover:before {
-    background-image: url('https://leerdustin.com/wc-2020/twitter-logo-white.svg');
+    background-image: url('https://leerdustin.com/wc-2020/twitter-logo-white-clipped.svg');
 }
 
 .social a[href*="meetup"]:before {
-    background-image: url('https://leerdustin.com/wc-2020/meetup-logo-m-swarm.svg');
+    background-image: url('https://leerdustin.com/wc-2020/meetup-logo-m-swarm-clipped.svg');
 }
 
 .social a[href*="meetup"]:hover:before {
-    background-image: url('https://leerdustin.com/wc-2020/meetup-logo-m-swarm-white.svg');
+    background-image: url('https://leerdustin.com/wc-2020/meetup-logo-m-swarm-white-clipped.svg');
 }
 
 .social a[href*="slack"]:before {
-    background-image: url('https://leerdustin.com/wc-2020/slack-mark.svg');
+    background-image: url('https://leerdustin.com/wc-2020/slack-mark-clipped.svg');
 }
 
 .social a[href*="slack"]:hover:before {
-    background-image: url('https://leerdustin.com/wc-2020/slack-mark-white.svg');
+    background-image: url('https://leerdustin.com/wc-2020/slack-mark-white-clipped.svg');
 }
