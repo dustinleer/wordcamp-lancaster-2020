@@ -218,16 +218,18 @@ input[type="submit"]:focus,
     max-width: 47%;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #ffffff;
     display: flex;
     align-content: center;
     align-items: center;
     max-height: 90px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 .sponsor-level a.sponsor-logo:hover,
 .sponsor-level a.sponsor-logo:focus {
-	opacity: 0.85;
+	opacity: 0.75;
 }
 
 .sponsor-level-title {
