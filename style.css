@@ -225,6 +225,11 @@ input[type="submit"]:focus,
     max-height: 90px;
 }
 
+.sponsor-level a.sponsor-logo:hover,
+.sponsor-level a.sponsor-logo:focus {
+	opacity: 0.85;
+}
+
 .sponsor-level-title {
     flex-basis: 100%;
 }
