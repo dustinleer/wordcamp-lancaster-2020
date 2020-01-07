@@ -472,7 +472,8 @@ h1, h2, h3, h4, h5, h6, .faux-heading {
     transition: all .5s ease;
 }
 
-#site-content a:hover {
+#site-content a:hover,
+#site-content a:focus {
     color: #ffffff;
 	background: #e22658;
 }
