@@ -198,12 +198,12 @@ input[type="submit"]:focus,
 .widget-content > div > :first-child.sponsor-level-title {
     margin-top: 1em;
 }
-/* .wcb_widget_sponsors .sponsor-logo img {
-    max-width: 50% !important;
-    margin-bottom: .5em;
-    padding: 1em;
-    background-color: #fff;
+.wcb_widget_sponsors .sponsor-logo img {
+	max-height: 80px;
+	margin: 0 auto;
 }
+
+/*
 .wcb_widget_sponsors .sponsor-logo img:hover {
     background: none;
 } */
@@ -216,6 +216,7 @@ input[type="submit"]:focus,
 
 .sponsor-level a.sponsor-logo {
     max-width: 47%;
+    min-width: 47%;
     margin-bottom: 20px;
     padding: 10px;
     background-color: #ffffff;
