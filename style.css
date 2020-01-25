@@ -198,8 +198,9 @@ input[type="submit"]:focus,
 .widget-content > div > :first-child.sponsor-level-title {
     margin-top: 1em;
 }
+
 .wcb_widget_sponsors .sponsor-logo img {
-	max-height: 80px;
+	max-height: 80px !important;
 	margin: 0 auto;
 }
 
