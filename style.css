@@ -313,7 +313,7 @@ input[type="submit"]:focus,
 
 @media (min-width: 700px) {
 	.singular .entry-header {
-		padding: 18rem 0;
+		padding: 18rem 0 !important;
 	}
 }
 
