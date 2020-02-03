@@ -317,6 +317,10 @@ input[type="submit"]:focus,
 	}
 }
 
+.singular .cover-header .entry-header {
+    padding: 14rem 0 !important;
+}
+
 .entry-header:after {
 	right: 0;
 	left: auto;
