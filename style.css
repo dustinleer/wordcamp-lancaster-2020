@@ -361,6 +361,12 @@ input[type="submit"]:focus,
 	color: #003c6e;
 }
 
+.primary-menu ul::after {
+	border: 0.8rem solid transparent;
+	border-bottom-color: transparent;
+	border-bottom-color: #ffffff;
+}
+
 .header-footer-group pre,
 .header-footer-group fieldset,
 .header-footer-group input,
