@@ -284,6 +284,10 @@ input[type="submit"]:focus,
     z-index: 1;
 }
 
+.cover-color-overlay {
+    color: #003c6e !important;
+}
+
 .entry-header:after,
 .footer-nav-widgets-wrapper.header-footer-group:after,
 .blog .header-inner.section-inner:before {
