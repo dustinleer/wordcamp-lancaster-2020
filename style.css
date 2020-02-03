@@ -250,8 +250,10 @@ input[type="submit"]:focus,
 	z-index: 99;
 }
 
-.overlay-header .header-inner {
-    color: #eca6b9;
+@media (min-width: 1000px) {
+	.overlay-header .header-inner {
+		color: #eca6b9;
+	}
 }
 
 #site-header:before {
