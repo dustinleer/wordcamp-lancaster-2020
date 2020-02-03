@@ -250,6 +250,10 @@ input[type="submit"]:focus,
 	z-index: 99;
 }
 
+.overlay-header .header-inner {
+    color: #eca6b9;
+}
+
 #site-header:before {
     content: '';
     display: flex;
@@ -350,6 +354,11 @@ input[type="submit"]:focus,
 .primary-menu li.menu-item-has-children:focus > ul,
 .primary-menu li.menu-item-has-children.focus > ul {
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.primary-menu ul {
+    background: #fff;
+	color: #003c6e;
 }
 
 .header-footer-group pre,
