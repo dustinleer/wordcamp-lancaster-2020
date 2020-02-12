@@ -662,3 +662,24 @@ textarea:focus {
 .page-slug-schedule .wp-block-button.alignleft{
     max-width: none;
 }
+.wcpt-time {
+    padding-top: .5em;
+}
+.wcpt-schedule tr {
+    border-top: none;
+    border-left: none;
+    border-color: #0F4C81;
+    border-width: 3px;
+    border-radius: 3px;
+}
+@media screen and (max-width: 600px){
+    .wp-block-button__link {
+        width: 100%;
+    }
+    .wp-block-button.alignleft,
+    .wp-block-button.alignright{
+        float: none;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
