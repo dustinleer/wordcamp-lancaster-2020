@@ -658,3 +658,7 @@ textarea:focus {
 .wcpt-session-speakers:before{
     content: "by ";
 }
+.page-slug-schedule .wp-block-button.alignright,
+.page-slug-schedule .wp-block-button.alignleft{
+    max-width: none;
+}
