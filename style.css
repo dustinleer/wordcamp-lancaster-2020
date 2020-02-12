@@ -650,3 +650,11 @@ textarea:focus {
     outline: thin dotted;
     outline-offset: -4px;
 }
+
+/* Schedule */
+.wcpt-schedule .wcpt-col-time{
+    width: 6em;
+}
+.wcpt-session-speakers:before{
+    content: "by ";
+}
