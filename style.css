@@ -14,15 +14,22 @@ body.custom-background {
 }
 
 /* Organizers & attendees pages */
+ul.wordcamp-organizers{
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 1%;
+}
 ul.wordcamp-organizers,
 ul.tix-attendee-list {
 	display: grid;
+}
+ul.tix-attendee-list {
 	grid-template-columns: 25% 25% 25% 25%;
 	grid-column-gap: 0;
 }
 
 #tix-attendees .tix-columns-3 li {
 	width: auto;
+    padding-top: 2.5em;
 }
 
 ul.wordcamp-organizers  li {
