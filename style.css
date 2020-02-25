@@ -17,8 +17,8 @@ body.custom-background {
 ul.wordcamp-organizers,
 ul.tix-attendee-list {
 	display: grid;
-	grid-template-columns: 49% 49%;
-	grid-column-gap: 1%;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-column-gap: 0;
 }
 
 #tix-attendees .tix-columns-3 li {
